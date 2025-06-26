@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig, envField } from "astro/config";
+import react from '@astrojs/react';
 import { fileURLToPath } from "url";
 import { dirname, resolve } from "path";
 import tailwindcss from '@tailwindcss/vite';
@@ -17,6 +18,7 @@ export default defineConfig({
       },
     }
   },
+  integrations: [react()],
   env: {
     schema: {
       CONTENT_ISLAND_SECRET_TOKEN: envField.string({
