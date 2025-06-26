@@ -1,0 +1,19 @@
+---
+import Layout from "@/layouts/layout.astro";
+import { getTrainings } from "@/api";
+
+const trainings = await getTrainings();
+---
+
+
+<Layout title="Listado de Cursos">
+  <h1 class="text-2xl font-bold mb-4">Cursos Disponibles</h1>
+  <ul class="space-y-4">
+    {trainings.map((training) => (
+      <li class="p-4 border rounded-lg">
+        <h2 class="text-xl font-semibold">{training.title}</h2>
+        <p>{training.overview}</p>
+      </li>
+    ))}
+  </ul>
+</Layout>
