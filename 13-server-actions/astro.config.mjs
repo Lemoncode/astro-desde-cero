@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig, envField } from "astro/config";
 import react from '@astrojs/react';
+import node from '@astrojs/node';
 import { fileURLToPath } from "url";
 import { dirname, resolve } from "path";
 import tailwindcss from '@tailwindcss/vite';
@@ -19,6 +20,7 @@ export default defineConfig({
     }
   },
   integrations: [react()],
+  adapter: node({ mode: 'standalone' }), // Configuración para Node.js
   env: {
     schema: {
       CONTENT_ISLAND_SECRET_TOKEN: envField.string({
