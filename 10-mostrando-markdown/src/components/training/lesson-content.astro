@@ -29,6 +29,8 @@ renderer.code = ({ text, lang }) => {
  const highlighted = hljs.highlight(text, { language: validLang }).value;
  return `<pre><code class="hljs ${validLang}">${highlighted}</code></pre>`;
 };
+
+marked.setOptions({ renderer });
 ---
 
 <div class="markdown-content" set:html={htmlContent} />
