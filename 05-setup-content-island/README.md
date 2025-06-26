@@ -1,6 +1,6 @@
 # 05 setup hcms
 
-📺 Ver lección en video: [05 Setup HCMS](https://www.lemoncode.tv/curso/tutorial-astro-desde-cero/leccion/astro-layouts)
+📺 Ver lección en video: [05 Setup HCMS](https://www.lemoncode.tv/curso/tutorial-astro-desde-cero/leccion/setup-content-island-hcms)
 
 ## ▶️ Cómo ejecutar este proyecto
 
