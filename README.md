@@ -44,7 +44,7 @@ Este token permite acceder al contenido del proyecto de ejemplo en **Content Isl
 ## 🎥 Curso en video
 
 Puedes seguir el curso completo y gratuito aquí:  
-**[Ver curso Aprende Astro desde cero 🚀](#)**
+**[Ver curso Aprende Astro desde cero 🚀](https://www.lemoncode.tv/curso/tutorial-astro-desde-cero/leccion/conceptos-astro)**
 
 ---
 
