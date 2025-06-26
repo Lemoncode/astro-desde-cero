@@ -18,3 +18,10 @@ CONTENT_ISLAND_SECRET_TOKEN=f38a94366651cc72879e0d71cfd339d4
 ```
 
 Este token permite acceder al contenido del proyecto de ejemplo en **Content Island (HCMS)** utilizado en el curso.
+
+## 🌐 Ver en el navegador
+
+Una vez iniciado el servidor, abre tu navegador en:
+
+[http://localhost:4321](http://localhost:4321)
+

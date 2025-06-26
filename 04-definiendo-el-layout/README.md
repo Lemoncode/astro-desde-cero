@@ -8,3 +8,9 @@
 npm install
 npm run dev
 ```
+
+## 🌐 Ver en el navegador
+
+Una vez iniciado el servidor, abre tu navegador en:
+
+[http://localhost:4321](http://localhost:4321)
